@@ -1,0 +1,228 @@
+/*basic styles*/
+
+body {
+  margin: 0;
+  background: rgb(141, 84, 19);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+i{
+  font-size: 2rem;
+}
+
+/*Home page*/
+
+/*Navigation link styles*/
+
+.top_link button{
+  height: 40px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(42, 42, 109);
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+.top_link button:hover{
+   cursor: pointer;
+   transition: 0.5s;
+   transform: scale(0.95);
+}
+
+#top_link_container{
+  display: flex;
+}
+
+/*sreach box styles*/
+
+#search-box {
+  border: none;
+  outline: none;
+  line-height: 0;
+  background: rgb(224, 218, 218);
+  width: 40vw;
+  height: 30px;
+  padding: 10px;
+}
+
+/*search result styles*/
+
+#search-list{
+ height: 60vh;
+ overflow-y: scroll;
+}
+
+#search-list li{
+  background-color: rgb(154, 170, 212);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 0.5rem;
+  transition: background-color 0.5s;
+  color: rgb(19, 12, 12);
+  max-width: 39vw;
+  position: relative;
+  border: 2px solid black;
+  border-bottom: 1px solid black;
+}
+
+#search-list li button{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    height: 30px;
+    background-color: rgb(36, 180, 23);
+}
+
+#search-list li:hover{
+  background-color: rgb(6, 8, 10);
+  color: white;
+}
+
+#search-list li .hero-image{
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  transition: box-shadow 0.5s;
+}
+
+#search-list li:hover .hero-image{
+  box-shadow: 0 0 10px 8px rgb(179, 172, 172);
+}
+
+
+/* favorite superhero cards styles */
+
+.hero-card {
+  margin: 1rem;
+  color: white;
+  height: 20rem;
+  width: 15rem;
+  background-size: contain;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.black-layer {
+  background: rgba(0, 0, 0, 0.568);
+  height: inherit;
+  width: inherit;
+  border-radius: inherit;
+}
+
+
+/* superhero detail page styles */
+
+#superhero-details li {
+  margin: 0 0 0.5rem 0;
+  padding: 2rem 3rem;
+  background: rgba(247, 244, 244, 1);
+  font-size: 25px;
+}
+#superhero-details li div {
+  width: 100%;
+}
+#superhero-details li p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Javascript css styles*/
+
+/*for search list*/
+
+.bro{
+  position: relative;
+  margin-left : 50px;
+}
+
+#broo{
+  margin-left: 50px;
+}
+
+/*for the Favorite list*/
+
+.ul-fav{
+  display : flex;
+}
+
+#favorite-list{
+  display: flex;
+}
+
+.fav-card{
+  height: 250px;
+  width: 180px;
+}
+
+#favy{
+  position: relative;
+}
+
+/*for the Superhero details*/
+
+#hero-name{
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  color: #d7e2ca;
+  font-size: 23px;
+}
+
+.love-img{
+    color: red;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+#sup-img{
+  display: flex;
+  height: 30vh;
+  
+}
+
+#img-name{
+  margin-top:17px ;
+}
+
+#superhero-image img{
+  height: 40vh;
+  width: 16vw;
+  margin-top: -1px;
+}
+
+#center-name{
+  text-align: center;
+  background: rgb(185, 167, 167);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#center-name span {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#ul-superhero{
+  margin-top : 200px;
+}
